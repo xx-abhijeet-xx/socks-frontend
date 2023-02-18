@@ -1,0 +1,1014 @@
+@font-face {
+    font-family: giloy-light;
+    src: url(./fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: gilroy-bold;
+    src: url(./fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: PAPYRUS;
+    src: url(./fonts/PAPYRUS.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: gilroy-light;
+}
+
+::-webkit-scrollbar{
+    width: 0.5vw;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: black;
+    /* margin-block: 0.5vw; */
+    border-radius: 0.25vw;
+    overflow: hidden;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background:#a97e79;
+    border-radius: 0.25vw;
+  }
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #fee8e5;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+#nav {
+  width: 100%;
+  height: 12%;
+  /* background-color: rgb(164, 164, 235); */
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 4%;
+}
+
+#nav1 {
+  font-size: 30px;
+}
+
+#nav2 {
+  display: flex;
+  gap: 15px;
+}
+
+#nav2 > button {
+    font-family: gilroy-light;
+  height: 30px;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+}
+
+#nav2 > button:hover{
+    /* height: 32px; */
+    background-color: black;
+    color: red;
+    border: 1px solid red;
+
+}
+
+#a1 {
+  width: 70px;
+}
+
+#a2 {
+  width: 80px;
+}
+
+#a3 {
+  width: 70px;
+}
+
+#a4 {
+  width: 70px;
+}
+
+#a5 {
+  width: 130px;
+}
+
+#a6 {
+  width: 70px;
+}
+
+#nav3 {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: giloy-light;
+  font-size: 130px;
+  letter-spacing: 5px;
+  margin-left: 80px;
+}
+
+#boi {
+  position: relative;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 90%;
+  /* background-color: black; */
+  border: 3px solid black;
+}
+#boi > #boy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 94%;
+  width: 98%;
+}
+
+#part1 {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fee8e5;
+}
+
+#lpicbox {
+  height: 80%;
+  width: 35%;
+  border: 3px solid black;
+  margin-left: 70px;
+}
+#lpicpic {
+  position: absolute;
+  top: 3%;
+  left: 6.5%;
+  height: 85%;
+  width: 40%;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/1f8e5024929163.5633c6a9ace1f.jpg);
+  background-size: cover;
+}
+
+#rdets {
+  position: absolute;
+  top: 7%;
+  left: 53%;
+  height: 50%;
+  width: 35%;
+}
+
+.hed {
+  font-size: 70px;
+  text-align: center;
+  line-height: 53px;
+  letter-spacing: -1px;
+  margin-right: 20%;
+}
+
+#rdets > #Histeri {
+  font-family: PAPYRUS;
+  /* font-weight: 100; */
+  margin-top: 20px;
+}
+#rdets > #Collectio {
+  font-family: PAPYRUS;
+  /* font-weight: 100; */
+}
+
+#rdets > h4 {
+  font-family: giloy-light;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#rdb {
+  position: absolute;
+  right: 5%;
+  top: 53%;
+  height: 40%;
+  width: 30%;
+  border: 3px solid black;
+}
+
+#rdp {
+  position: absolute;
+  right: 7%;
+  top: 56%;
+  height: 40%;
+  width: 30%;
+}
+
+#onda {
+  height: 100%;
+  width: 100%;
+}
+
+#Expo {
+  width: 11%;
+  height: 8%;
+  background-color: #b50f00;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 20px;
+  font-family: giloy-light;
+  top: 60%;
+  left: 42%;
+  color: azure;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+}
+
+#Expo:hover {
+  height: 11%;
+  /* width: 19%; */
+  color: aqua;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #490802;
+}
+
+#part2 {
+  height: 100%;
+  width: 100%;
+  background-color: #fee8e5;
+  position: relative;
+  overflow: hidden;
+}
+
+#hed > h1 {
+  font-size: 60px;
+  font-family: Arial Rounded MT;
+}
+
+#part2 > #mat {
+  position: relative;
+  margin-top: 80px;
+  height: 80%;
+  width: 100%;
+  background-image: url(https://i.pinimg.com/564x/a9/fe/33/a9fe33dae4b78f61e69afabae96bc80c.jpg);
+  background-size: cover;
+}
+
+.card {
+  overflow: hidden;
+  position: absolute;
+  top: 51%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 345px;
+  /* border: 3px solid black; */
+}
+
+#card1 {
+  left: 20%;
+}
+
+#card2 {
+  left: 50%;
+}
+
+#card3 {
+  left: 80%;
+}
+
+.card > img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.card > img:hover {
+  height: 113%;
+  cursor: pointer;
+}
+
+.butt {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 77%;
+  font-size: 17px;
+  font-family: Aquire;
+  background-color: #3d4555;
+  color: #fee8e5;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#but1 {
+  left: 11.5%;
+}
+
+#but2 {
+  left: 41.5%;
+}
+
+#but3 {
+  left: 71.5%;
+}
+
+.butt:hover {
+  height: 13%;
+  /* width: 19%; */
+  color: aqua;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #490802;
+}
+
+#part3 {
+  position: relative;
+  height: 110%;
+  width: 100%;
+  background-color: #fee8e5;
+  position: relative;
+}
+
+#update {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+#update > h1 {
+  font-size: 50px;
+  font-family: Arial Rounded MT;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  height: 20%;
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px solid black;
+  padding: 0px 10px;
+}
+
+#container1 {
+  top: 31%;
+}
+
+#container2 {
+  top: 51%;
+}
+
+#container3 {
+  top: 71%;
+}
+
+#container4 {
+  z-index: 999999999999999;
+  top: 91%;
+  border-bottom: 3px solid black;
+}
+
+.container > #det1 {
+  height: 45%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: giloy-light;
+  letter-spacing: 2px;
+}
+
+.container:hover > #det1 {
+  border-radius: 50%;
+  transform: rotate(-10deg);
+  border: 3px solid black;
+  transition: all 0.5s;
+}
+
+.container > #det2 h5 {
+  font-family: giloy-light;
+  font-size: 45px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-left: 100px;
+  font-weight: 500;
+}
+.container > #det2 h6 {
+  font-family: giloy-light;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-left: 100px;
+}
+
+#teer {
+  font-size: 50px;
+}
+
+.container:hover > i {
+  transform: rotate(-30deg);
+  transition: all 0.5s;
+}
+
+#container3 > #det2 {
+  margin-right: 100px;
+}
+#container4 > #det2 {
+  margin-left: 50px;
+}
+
+.container > .photu {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.container:hover > #photu1 {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F06%2F96%2Feb%2F0696eb01752cd3fbbcf8cf2ddef41748.jpg&f=1&nofb=1);
+  background-size: cover;
+  transition: all 1s;
+  transform: rotate(30deg);
+  border: 1px solid black;
+}
+
+.container:hover > #photu2 {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F32%2Fd3%2Fe5%2F32d3e59abde220a2adfba3c0c298d019.jpg&f=1&nofb=1);
+  background-size: cover;
+  transform: rotate(30deg);
+  transition: all 1s;
+  border: 1px solid black;
+}
+
+.container:hover > #photu3 {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F44%2Fa9%2Fc5%2F44a9c5112b2f8c789f9b5bbbd406fd3b.jpg&f=1&nofb=1);
+  background-size: cover;
+  transform: rotate(30deg);
+  transition: all 1s;
+  border: 1px solid black;
+}
+
+.container:hover > #photu4 {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fillsocietymag.com%2Fwp-content%2Fuploads%2F2012%2F11%2Fhappy-socks-2012-october-new-releases-3.jpg&f=1&nofb=1);
+  background-size: cover;
+  transform: rotate(30deg);
+  transition: all 1s;
+  border: 1px solid black;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+#part4 {
+  position: relative;
+  height: 125%;
+  width: 100%;
+  background-color: #fee8e5;
+  position: relative;
+  display: flex;
+}
+
+#part4 > #left {
+  width: 45%;
+  height: 100%;
+  position: relative;
+}
+
+#topdet > h1 {
+  font-family: Glitten;
+  font-size: 80px;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-right: 150px;
+}
+
+#left > h4 {
+  font-family: giloy-light;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-right: 70px;
+}
+
+#bottomdet {
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  width: 50%;
+  height: 38%;
+  border: 3px solid black;
+}
+
+#picture1 {
+  position: absolute;
+  top: 53%;
+  left: 23%;
+  width: 50%;
+  height: 38%;
+  border: 3px solid black;
+  background-image: url(https://i.pinimg.com/736x/0f/2e/bc/0f2ebc0ad3300cd1ee3827d959c048b1.jpg);
+  background-size: cover;
+}
+
+#part4 > #right {
+  height: 100%;
+  width: 55%;
+  position: relative;
+}
+
+#right > #boxz {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 55%;
+  height: 75%;
+  border: 3px solid black;
+}
+
+#right > #picture2 {
+  position: absolute;
+  top: 23%;
+  right: 14%;
+  width: 75%;
+  height: 75%;
+  border: 3px solid black;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/855e2824929163.5633c6a98d1a5.jpg);
+  background-size: cover;
+}
+
+#Expo1 {
+  width: 11%;
+  height: 8%;
+  background-color: rgb(26, 84, 26);
+  position: absolute;
+  border-radius: 50%;
+  font-size: 20px;
+  font-family: giloy-light;
+  top: 78%;
+  left: 30%;
+  color: azure;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#Expo1:hover {
+  height: 7%;
+  color: aqua;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #490802;
+}
+
+#hola {
+  width: 100%;
+  height: 5%;
+  background-color: rgb(203, 137, 137);
+  white-space: nowrap;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+}
+
+#hola::-webkit-scrollbar {
+  display: none;
+}
+
+#hola > h5 {
+  display: inline-block;
+  text-transform: uppercase;
+  transform: translateX(-100%);
+  animation-name: scroll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: -6px;
+  margin-top: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#part5 {
+  position: relative;
+  height: 125%;
+  width: 100%;
+  background-color: #fee8e5;
+  position: relative;
+  display: flex;
+}
+
+#part5 > #detto {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+
+#part5 #detto > h3 {
+  font-size: 70px;
+  font-family: New Walt Disney Font;
+  line-height: 55px;
+  font-weight: 100;
+}
+
+#part5 > #boxz {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  height: 45%;
+  width: 50%;
+  border: 3px solid black;
+}
+
+#part5 > #picz {
+  position: absolute;
+  top: 39%;
+  left: 10%;
+  height: 45%;
+  width: 50%;
+  border: 3px solid black;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.intimoretail.it%2Fwp-content%2Fuploads%2F2019%2F09%2FHAPPY-SOCKS-2.jpg&f=1&nofb=1);
+  background-size: cover;
+}
+
+#part5 > #logo {
+  position: absolute;
+  top: 12%;
+  left: 65%;
+  height: 25%;
+  width: 17%;
+  overflow: hidden;
+}
+
+#logo > img {
+  height: 100%;
+  width: 100%;
+  margin-top: -5%;
+}
+
+#lbdets {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  height: 30%;
+  width: 20%;
+  /* border: 3px solid black; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#lbdets > h4 {
+  font-family: giloy-light;
+  font-size: 25px;
+  line-height: 22px;
+}
+
+#lbdets > h6 {
+  font-family: AbadiMT;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+#get {
+  position: absolute;
+  top: 90%;
+  left: 32%;
+  font-family: giloy-light;
+  font-size: 50px;
+}
+
+#hola2 {
+  width: 100%;
+  height: 5%;
+  background-color: rgb(203, 137, 137);
+  white-space: nowrap;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+}
+
+#hola2::-webkit-scrollbar {
+  display: none;
+}
+
+#hola2 > h5 {
+  display: inline-block;
+  text-transform: uppercase;
+  transform: translateX(-100%);
+  animation-name: scroll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: -6px;
+  margin-top: 10px;
+}
+
+#part6 {
+  position: relative;
+  height: 125%;
+  width: 100%;
+  background-color: #fee8e5;
+  position: relative;
+  /* border-bottom: 3px solid black; */
+}
+
+#part6 > .pictu {
+  height: 27%;
+  width: 21%;
+  position: absolute;
+  top: 8%;
+  border: 3px solid black;
+}
+
+#part6 > #pic1 {
+  left: 10%;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fl2FY0bcdxIU%2Fhqdefault.jpg&f=1&nofb=1);
+  background-size: cover;
+}
+
+#part6 > #pic2 {
+  height: 45%;
+  width: 27%;
+  position: absolute;
+  top: 8%;
+  border: 3px solid black;
+  left: 36%;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmizzfit.com%2FPublic%2FFiles%2Fpost%2Fpolka_dots_chrissys_knee_high_socks_mizzfit_3_e6e4b959b1.jpg&f=1&nofb=1);
+  background-size: cover;
+}
+
+#part6 > #pic3 {
+  left: 67%;
+  background-image: url(https://i.pinimg.com/originals/99/a9/f3/99a9f312d36f57b8b1fadfd0000f58a4.jpg);
+  background-size: cover;
+}
+
+#part6 > #bottommax {
+  position: relative;
+  top: 60%;
+  border: 3px solid black;
+  width: 100%;
+  height: 35%;
+  display: flex;
+}
+
+.dono {
+  /* border: 3px solid black; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#leftdet {
+  border-right: 3px solid black;
+}
+
+#leftdet > #about {
+  display: flex;
+}
+
+#about > h3 {
+  font-family: giloy-light;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+  position: absolute;
+  left: 3.5%;
+}
+
+#about > #a1 {
+  width: 100%;
+  height: 80%;
+  /* border: 3px solid black; */
+  margin-top: 50px;
+}
+
+#about > #a2 {
+  width: 100%;
+  height: 80%;
+  /* border: 3px solid black; */
+  margin-top: 50px;
+}
+
+#a1 > h4 {
+  font-family: giloy-light;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 50px;
+  margin-left: 50px;
+}
+
+#a2 > h4 {
+  font-family: giloy-light;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 50px;
+}
+#help > h3 {
+  font-family: giloy-light;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+  position: absolute;
+  left: 28.5%;
+}
+
+#help > #b1 {
+  width: 100%;
+  height: 80%;
+  /* border: 3px solid black; */
+  margin-top: 50px;
+}
+
+#help > #b2 {
+  width: 100%;
+  height: 80%;
+  /* border: 3px solid black; */
+  margin-top: 50px;
+}
+
+#b1 > h4 {
+  font-family: giloy-light;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 50px;
+  margin-left: 50px;
+}
+
+#b2 > h4 {
+  font-family: giloy-light;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+#rightdet {
+  gap: 20px;
+  position: relative;
+}
+
+#rightdet > button {
+  height: 33px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 3px solid black;
+}
+
+#rightdet > #a1 {
+  width: 75px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+#rightdet > #a2 {
+  width: 85px;
+  position: absolute;
+  top: 15%;
+  left: 18%;
+}
+
+#rightdet > #a3 {
+  width: 75px;
+  position: absolute;
+  top: 15%;
+  left: 32%;
+}
+
+#rightdet > #a4 {
+  width: 75px;
+  position: absolute;
+  top: 15%;
+  left: 45%;
+}
+
+#rightdet > #a5 {
+  width: 75px;
+  position: absolute;
+  top: 15%;
+  left: 58%;
+}
+
+#rightdet > #a6 {
+  width: 140px;
+  position: absolute;
+  top: 33%;
+  left: 5%;
+}
+
+#sea {
+  width: 35px;
+  height: 35px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  left: 73%;
+  font-size: 20px;
+}
+
+#searc {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#new {
+  position: absolute;
+  top: 60%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+}
+
+#bar {
+  position: absolute;
+  top: 69%;
+  left: 5%;
+  border-bottom: 3px solid black;
+  height: 20%;
+  width: 90%;
+  font-family: giloy-light;
+}
+
+#bar > h4 {
+  position: absolute;
+  left: 1%;
+  top: 20%;
+}
+
+#leftteer {
+  position: absolute;
+  left: 93%;
+  top: 20%;
+  font-size: 30px;
+}
+
+#bottomultramax {
+  position: relative;
+  width: 100%;
+  height: 5%;
+  position: absolute;
+  top: 95%;
+  font-family: giloy-light;
+}
+
+#c1 {
+  left: 10%;
+  display: flex;
+  gap: 20px;
+  font-weight: 300;
+}
+#c2 {
+  left: 50%;
+}
+#c3 {
+  left: 90%;
+  display: flex;
+  gap: 30px;
+}
+
+.patanahi {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
