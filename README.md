@@ -11,7 +11,6 @@ Our coder has worked tirelessly to create a unique and dynamic user experience, 
 The site features a wide range of styles, from bold and colorful socks to classic and understated designs. Our collection has been curated to cater to all tastes and preferences. And the best part? Our site is incredibly user-friendly, making it easy to find what you're looking for.
 
 So, what are you waiting for? Get ready to step up your sock game and start browsing our collection today. With our innovative website and commitment to quality, you can rest assured that you’ll find the perfect pair of socks to suit your style.
-https://xx-abhijeet-xx.github.io/Socks/
 
 ##Result
 >https://socks-frontend.netlify.app/
